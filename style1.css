@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.unorder-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+li{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    margin: 4px 8px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+}
+ul>input{
+    border-radius: 15px;
+    padding: 6px 6px;
+    margin: 20px;
+}
+li > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+.logo{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.logo>span{
+    color: blue;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tree.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.signup{
+    font-size: 40px;
+}
+#signUpForm{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    padding: 24px;
+    border-radius:12px;
+    box-shadow: 5px 0px 12px black;
+    justify-content: center;
+}
+#signUpForm > input{
+    border-radius: 12px;
+    padding: 5px;
+    width: 50%;
+}
+#signUpForm > h1{
+    margin-bottom: 50px;
+}
+#signUpForm > button{
+    background: rgb(75, 75, 210);
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}

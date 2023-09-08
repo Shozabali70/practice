@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.unorder-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+li{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    margin: 4px 8px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+}
+ul>input{
+    border-radius: 22px;
+    padding: 6px 6px;
+    margin: 20px;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+.logo{
+    font-size: 50px;
+    margin-left: 30px;
+}
+.logo>span{
+    color: red;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(world.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.signup{
+    font-size: 45px;
+}
+#signupform{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px black;
+    justify-content: center;
+}
+#signupform > input{
+    border-radius: 15px;
+    padding: 5px;
+    width: 50%;
+}
+#signupform > h1{
+    margin-bottom: 50px;
+}
+#signupform > button{
+    background: rgb(234, 3, 3) ;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
